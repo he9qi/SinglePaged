@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    exifr (1.2.2)
+    jekyll-gallery-generator (0.0.6)
+      exifr (~> 1.2)
+      rmagick (~> 2.12)
+    rmagick (2.15.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  jekyll-gallery-generator
