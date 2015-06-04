@@ -50,6 +50,14 @@ pre {
 .highlighttable { margin:20px 5%; }
 
 
+
+.free-wall {
+	margin: 15px;
+}
+.brick img {
+	margin: 0;
+	display: block;
+}
 /* ----- base elements ----- */
 
 img {
