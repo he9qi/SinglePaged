@@ -92,7 +92,7 @@ $(document).ready(function (){
 	});
 
   var temp = "<div class='brick' style='width:{width}px;'><img src='photos/happypet/{index}.jpg' width='100%'></div>";
-	var w = 1, h = 1, html = '', limitItem = 18;
+	var w = 1, h = 1, html = '', limitItem = 22;
 	for (var i = 0; i < limitItem; ++i) {
 		w = 1 + 3 * Math.random() << 0;
 		html += temp.replace(/\{width\}/g, w*120).replace("{index}", i + 1);
